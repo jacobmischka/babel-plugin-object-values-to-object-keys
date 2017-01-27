@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-object-values-to-object-keys",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobmischka/babel-plugin-object-values-to-object-keys.git"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "watch": "babel src -d dist --watch"
+  },
+  "files": [
+    "dist/index.js"
+  ],
+  "author": "Jacob Mischka <jacob@mischka.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8",
+    "eslint": "^3.14.1"
+  }
+}
