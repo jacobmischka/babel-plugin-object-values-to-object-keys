@@ -6,9 +6,7 @@ export default function({types: t}){
 						&& t.isIdentifier(path.node.callee.object, {name: 'Object'})
 						&& t.isIdentifier(path.node.callee.property, {name: 'values'})){
 					let obj = path.node.arguments[0];
-					
-					console.log(obj);
-					
+
 					path.replaceWith(
 						t.callExpression(
 							t.memberExpression(
@@ -37,8 +35,6 @@ export default function({types: t}){
 							]
 						)
 					);
-					
-					
 				}
 			}
 		}
