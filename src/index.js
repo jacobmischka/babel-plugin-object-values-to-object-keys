@@ -1,4 +1,6 @@
-export default function({types: t}){
+/* eslint-env node */
+
+module.exports = function({types: t}){
 	return {
 		visitor: {
 			CallExpression(path){
@@ -39,4 +41,4 @@ export default function({types: t}){
 			}
 		}
 	};
-}
+};

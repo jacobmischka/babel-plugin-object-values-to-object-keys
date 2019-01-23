@@ -16,8 +16,10 @@
   "author": "Jacob Mischka <jacob@mischka.me>",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-preset-env": "^1.1.8",
-    "eslint": "^3.14.1"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "eslint": "^5.12.1",
+    "jest": "^23.6.0"
   }
 }
